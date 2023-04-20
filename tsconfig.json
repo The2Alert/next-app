@@ -19,7 +19,11 @@
     "incremental": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@common/*": ["./common/*"]
+    }
   },
   "exclude": [
     "node_modules"

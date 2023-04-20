@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import {useRouter} from "next/router";
 
-export default function NotFoundPage(): React.ReactElement {
+export const NotFoundPage: React.FC = () => {
     const router = useRouter();
 
     useEffect(() => {
@@ -9,4 +9,4 @@ export default function NotFoundPage(): React.ReactElement {
     }, []);
 
     return <></>;
-}
+};
