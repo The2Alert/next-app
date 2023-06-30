@@ -2,8 +2,8 @@
     <img src="https://user-images.githubusercontent.com/68344264/214657102-c820f111-0aab-4cc6-b584-72b0fa054c62.png" width="300" />
 
 </p>
-<h1 align="center">Next app</h1>
-<p align="center">Next Startup Application.</p>
+<h1 align="center">Next.js app</h1>
+<p align="center">Next.js Startup Application.</p>
 
 <h2>Installing</h2>
 <p>Preliminary requirements:</p>
@@ -19,7 +19,7 @@
 <p>Start application:</p>
 <pre>yarn start</pre>
 <p>Start application in production mode:</p>
-<pre>yarn start-server</pre>
+<pre>yarn start-prod</pre>
 <p>Build application:</p>
 <pre>yarn build</pre>
 
@@ -30,6 +30,12 @@
 <pre>yarn lint:fix</pre>
 <p>Format code (with Prettier):</p>
 <pre>yarn format</pre>
+
+<h2>Storybook</h2>
+<p>Start Storybook:</p>
+<pre>yarn sb</pre>
+<p>Build Storybook:</p>
+<pre>yarn build:sb</pre>
 
 <h2>License</h2>
 <p><a href="./LICENSE">MIT</a></p>

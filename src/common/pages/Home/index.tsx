@@ -1,15 +1,11 @@
 import React from "react";
-import styled from "styled-components";
-import {Page} from "@common/Page";
-
-export const Title = styled.h1`
-    color: #8be0ea;
-`;
+import {Main} from "@common/Main";
+import {Title} from "@common/Title";
 
 export const HomePage: React.FC = () => {
     return (
-        <Page title="Home">
+        <Main>
             <Title>Hello, world!</Title>
-        </Page>
+        </Main>
     );
 };

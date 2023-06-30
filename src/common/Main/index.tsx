@@ -1,3 +1,3 @@
-import styled from "styled-components";
+import React from "react";
 
-export const Main = styled.main``;
+export const Main: React.FC<React.PropsWithChildren> = ({children}) => <main>{children}</main>;

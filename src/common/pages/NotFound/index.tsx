@@ -1,12 +1,6 @@
-import React, {useEffect} from "react";
-import {useRouter} from "next/router";
+import React from "react";
+import {redirect} from "next/navigation";
 
 export const NotFoundPage: React.FC = () => {
-    const router = useRouter();
-
-    useEffect(() => {
-        router.push("/");
-    }, []);
-
-    return <></>;
+    redirect("/");
 };
