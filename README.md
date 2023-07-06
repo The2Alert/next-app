@@ -37,5 +37,8 @@
 <p>Build Storybook:</p>
 <pre>yarn build:sb</pre>
 
+<h2>Next.js Architecture</h2>
+<p><a href="./ARCH.md">Link</a></p>
+
 <h2>License</h2>
 <p><a href="./LICENSE">MIT</a></p>
