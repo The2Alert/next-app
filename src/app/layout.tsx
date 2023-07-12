@@ -26,9 +26,9 @@ export const metadata: Metadata = {
         type: "website"
     },
     robots: {
-        index: true,
+        index: false,
         googleBot: {
-            index: true
+            index: false
         }
     },
     icons: {
